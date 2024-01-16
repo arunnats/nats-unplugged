@@ -1,0 +1,178 @@
+.login-form-container {
+position: relative;
+z-index: 1;
+background: #402E32;
+max-width: 360px;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+}
+
+.login-form-container input {
+font-family: 'Playfair Display', serif;
+outline: 0;
+background: #FFFFFF;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+
+
+.login-form-container button {
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+outline: 0;
+background: #7A6C5D;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #fbf5ec;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.login-form-container button:hover,
+.login-form-container button:active,
+.login-form-container button:focus {
+background: white;
+color: #000000;
+border: #000000;
+}
+
+.login-form-container .message {
+margin: 15px 0 0;
+color: #FFFFFF;
+font-size: 12px;
+}
+
+.login-form-container .message a {
+color: #000000;
+text-decoration: none;
+}
+
+.login-form-container .register-form {
+display: none;
+}
+
+
+.admin-form-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start; 
+align-items: center;
+background: #fbf5ec;
+max-width: 95%;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.admin-form .adminButton {
+flex: 1;
+font-family: 'Playfair Display', serif;
+outline: 0;
+background: black;
+border: 0;
+padding: 12px;
+color: #fbf5ec;
+font-size: 12px;
+margin: 8px;
+cursor: pointer;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+}
+
+.admin-form-container .adminButton:hover,
+.admin-form-container .adminButton:active,
+.admin-form-container .adminButton:focus {
+background: white;
+color: #000000;
+border: #000000;
+}
+
+.admin-form-container .message {
+margin: 15px 0 0;
+color: #FFFFFF;
+font-size: 12px;
+}
+
+.admin-form-container .message a {
+color: #000000;
+text-decoration: none;
+}
+
+.admin-form-container .register-form {
+display: none;
+}
+
+#dynamicContent {
+width: 100%;
+display: flex;
+flex-wrap:wrap;
+flex-direction: column;
+justify-content: center; /* Align dynamic content to the start */
+align-items: center;
+}
+
+#dynamicContent div {
+margin: 8px;
+max-width: 500px; /* Adjust the max-width as needed */
+}
+
+#dynamicContent label {
+font-size: 16px;
+font-family: 'Playfair Display', serif;
+}
+
+#dynamicContent input{
+width: 100%;
+box-sizing: border-box;
+padding: 8px;
+margin-top: 4px;
+}
+
+#dynamicContent textarea {
+height: 200px;
+width: 100%;
+box-sizing: border-box;
+padding: 8px;
+margin-top: 4px;
+}
+
+#submitButton {
+margin-top: 16px;
+
+}
+
+#submitButton  {
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+outline: 0;
+background: black;
+width: 150px;
+border: 0;
+padding: 15px;
+color: #fbf5ec;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+#submitButton :hover,
+#submitButton :active,
+#submitButton :focus {
+background: white;
+color: #000000;
+border: #000000;
+}
